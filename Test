@@ -1,0 +1,15 @@
+function ai.init()
+
+end
+
+function ai.init(map, money)
+    buyTrain(1, 1)
+end
+
+function ai.foundPassengers(train, passengers)
+    return passengers[1]
+end
+
+function ai.foundDestination(train)
+    dropPassenger(train)
+end
